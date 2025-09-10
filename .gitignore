@@ -1,0 +1,64 @@
+# --- Unity (carpetas regenerables) ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+
+# Plastic SCM / Control de versiones
+.plastic/
+
+# Herramientas/IDE
+.vs/
+.vscode/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+
+# Proyectos/soluciones generados por IDE (Unity los regenera)
+*.sln
+*.csproj
+*.unityproj
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.booproj
+*.svd
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash / sysinfo
+sysinfo.txt
+crashlytics-build.properties
+
+# Paquetes/binarios a NO versionar
+*.apk
+*.aab
+*.app
+*.unitypackage
+
+# SO (mac/win)
+.DS_Store*
+Thumbs.db
+Desktop.ini
+
+# Asset Store tools
+**/Assets/AssetStoreTools*
+**/assets/assetstoretools*
+
+# --- Si vas a publicar WebGL en GitHub Pages dentro de docs/, descomenta: ---
+# !docs/**
+# !docs/jumping-guy/**
+
+.fake
